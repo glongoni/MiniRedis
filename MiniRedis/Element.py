@@ -1,6 +1,9 @@
 import threading
 from functools import partial
 
+#This class represents an element stored in MiniRedis, it keeps
+#the element's key, value, and handles it's expiration time
+
 class Element:
 
     def __init__(self, key, value):
@@ -30,7 +33,7 @@ class Element:
                     strValue = str(intValue)
                     self.__value = strValue
             except:
-                return self.__value
+                return "Error: The value type can't be incremented"
 
         return self.__value
 

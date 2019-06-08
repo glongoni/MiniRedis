@@ -1,5 +1,9 @@
 from Element import Element
 
+#Linked list implementation, each ElementBucket can contain N elements sharing
+#the same index in the hash table. Those lists are supose to be small, so it 
+#shouldn't be a performance issue 
+
 class ElementBucket:
 
     def __init__(self, element):

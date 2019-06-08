@@ -18,7 +18,7 @@ Just run:
     `python tests.py`
 
 
-### Example
+### Example library usage
 
 ```
 
@@ -42,6 +42,20 @@ if __name__== "__main__":
 
 
 ```
+
+### Running webservice
+
+Just run:
+    `python MiniRedisServer.py`
+
+
+### Example usgin webservice
+
+`curl -d 200 -X PUT localhost:8080/mykey`
+`curl -X GET localhost:8080/mykey`
+`curl -X DELETE localhost:8080/mykey`
+`curl -X GET localhost:8080/mykey`
+
 
 ### Considerations
 
