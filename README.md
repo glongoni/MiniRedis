@@ -15,7 +15,8 @@ Install [pyskiplist](https://github.com/geertj/pyskiplist)
 ### Running tests
 
 Just run:
-    `python tests.py`
+
+`python tests.py`
 
 
 ### Example library usage
@@ -46,18 +47,22 @@ if __name__== "__main__":
 ### Running webservice
 
 Just run:
-    `python MiniRedisServer.py`
+
+`python MiniRedisServer.py`
 
 
 ### Example usgin webservice
 
 `curl -d 200 -X PUT localhost:8080/mykey`
+
 `curl -X GET localhost:8080/mykey`
+
 `curl -X DELETE localhost:8080/mykey`
+
 `curl -X GET localhost:8080/mykey`
 
 
 ### Considerations
 
-* Some improovements could be done in the zrange method and was explained in the method's body
+* Some improovements could be done in the zrange method, details in the method's body
 * The method "del" was changed to "delete" because del is a reserved word in python
