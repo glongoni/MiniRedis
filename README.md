@@ -51,7 +51,7 @@ Just run:
 `python MiniRedisServer.py`
 
 
-### Example usgin webservice
+### Example webservice usage
 
 `curl -d 200 -X PUT localhost:8080/mykey`
 
